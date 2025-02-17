@@ -1,0 +1,180 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("background.jpg");
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    color: #333;
+}
+
+/* Navigation styles */
+
+/* Navigation styles */
+nav {
+    display: flex; /* Use flexbox for navigation layout */
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Center items vertically */
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent blue background */
+    padding: 10px 20px; /* Padding inside the nav */
+}
+
+.nav-logo img {
+    height: 40px; /* Logo height */
+    width: 40px; /* Logo width */
+}
+
+.nav-div ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.nav-div ul li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.nav-div ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* White text color */
+    font-weight: bold; /* Bold font for links */
+}
+
+.nav-div button {
+    background-color: #fff; /* White background for buttons */
+    color: #007BFF; /* Blue text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside buttons */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-left: 10px; /* Space between buttons */
+}
+
+.nav-div button:hover {
+    background-color: #e9ecef; /* Light gray on hover */
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Search form styles */
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+form button {
+    padding: 10px 15px;
+}
+
+/* Image container styles */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s; /* Added transition for scaling */
+}
+
+section:hover {
+    transform: scale(1.02); /* Slightly enlarge section on hover */
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+section label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+section p {
+    margin: 10px 0;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007BFF;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer a {
+    color: white;}
+    /* Footer styles */
+footer {
+    background-color: #007BFF; /* Blue background for the footer */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Padding inside the footer */
+    position: relative; /* Allows for positioning of elements */
+    bottom: 0; /* Sticks the footer to the bottom */
+    width: 100%; /* Full width of the footer */
+    margin-top: 30px; /* Space above the footer */
+}
+
+footer p {
+    margin: 5px 0; /* Space above and below each paragraph */
+    font-size: 0.9em; /* Smaller font size for footer text */
+}
+
+footer a {
+    color: #ffffff; /* White color for links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Bold font for links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}

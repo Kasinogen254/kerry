@@ -1,0 +1,158 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean, modern font */
+    line-height: 1.6; /* Increases line height for better readability */
+    margin: 0; /* Removes default margin */
+    padding: 20px; /* Adds padding around the body */
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color for contrast */
+}
+
+/* Header styles */
+header {
+    text-align: center; /* Centers the header text */
+    margin-bottom: 30px; /* Adds space below the header */
+}
+
+header h1 {
+    font-size: 2.5em; /* Larger font size for the main title */
+    color: #007BFF; /* Blue color for the title */
+}
+
+header p {
+    font-size: 1.2em; /* Slightly larger font for the introduction */
+}
+
+/* Contact information styles */
+.contact-info {
+    background-color: #ffffff; /* White background for the contact info */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the contact info section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 30px; /* Space below the contact info section */
+}
+
+.contact-info h2 {
+    color: #007BFF; /* Blue color for the section title */
+}
+
+/* Contact form styles */
+.contact-form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the form section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact-form h2 {
+    color: #007BFF; /* Blue color for the section title */
+}
+
+.contact-form label {
+    display: block; /* Makes labels block elements */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold font for labels */
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%; /* Full width for inputs and textarea */
+    padding: 10px; /* Padding inside inputs and textarea */
+    margin-bottom: 15px; /* Space below inputs and textarea */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.contact-form button {
+    background-color: #007BFF; /* Blue background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Font size for the button */
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Centers the footer text */
+    margin-top: 30px; /* Space above the footer */
+    font-size: 0.9em; /* Smaller font size for the footer */
+    color: #777; /* Gray color for the footer text */
+}
+/* Navigation styles */
+nav {
+    display: flex; /* Use flexbox for navigation layout */
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Center items vertically */
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent blue background */
+    padding: 10px 20px; /* Padding inside the nav */
+}
+
+.nav-logo img {
+    height: 40px; /* Logo height */
+    width: 40px; /* Logo width */
+}
+
+.nav-div ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.nav-div ul li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.nav-div ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* White text color */
+    font-weight: bold; /* Bold font for links */
+}
+
+.nav-div button {
+    background-color: #fff; /* White background for buttons */
+    color: #007BFF; /* Blue text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside buttons */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-left: 10px; /* Space between buttons */
+}
+
+.nav-div button:hover {
+    background-color: #e9ecef; /* Light gray on hover */
+}
+/* Footer styles */
+footer {
+    background-color: #007BFF; /* Blue background for the footer */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Padding inside the footer */
+    position: relative; /* Allows for positioning of elements */
+    bottom: 0; /* Sticks the footer to the bottom */
+    width: 100%; /* Full width of the footer */
+    margin-top: 30px; /* Space above the footer */
+}
+
+footer p {
+    margin: 5px 0; /* Space above and below each paragraph */
+    font-size: 0.9em; /* Smaller font size for footer text */
+}
+
+footer a {
+    color: #ffffff; /* White color for links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Bold font for links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}

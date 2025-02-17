@@ -1,0 +1,153 @@
+/* home.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean, modern font */
+    line-height: 1.6; /* Increases line height for better readability */
+    margin: 0; /* Removes default margin */
+    padding: 20px; /* Adds padding around the body */
+    background-image: url('background.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    color: white; /* Dark text color for contrast */
+}
+
+/* Navigation styles */
+nav {
+    display: flex; /* Use flexbox for navigation layout */
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Center items vertically */
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent blue background */
+    padding: 10px 20px; /* Padding inside the nav */
+}
+
+.nav-logo img {
+    height: 40px; /* Logo height */
+    width: 40px; /* Logo width */
+}
+
+.nav-div ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.nav-div ul li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.nav-div ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* White text color */
+    font-weight: bold; /* Bold font for links */
+}
+
+.nav-div button {
+    background-color: #fff; /* White background for buttons */
+    color: #007BFF; /* Blue text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside buttons */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-left: 10px; /* Space between buttons */
+}
+
+.nav-div button:hover {
+    background-color: #e9ecef; /* Light gray on hover */
+}
+
+/* Header styles */
+header {
+    text-align: center; /* Centers the header text */
+    margin-bottom: 30px; /* Adds space below the header */
+}
+
+header h1 {
+    font-size: 2.5em; /* Larger font size for the main title */
+    color: #007BFF; /* Blue color for the title */
+}
+
+header p {
+    font-size: 1.2em; /* Slightly larger font for the introduction */
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center; /* Centers the hero text */
+    margin: 30px 0; /* Adds margin above and below the hero section */
+}
+
+.hero h2 {
+    font-size: 2em; /* Font size for the hero heading */
+}
+
+.hero p {
+    font-size: 1.1em; /* Font size for the hero paragraph */
+}
+
+.cta-button {
+    display: inline-block; /* Makes the button inline-block */
+    background-color: #007BFF; /* Blue background for the button */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Removes underline from link */
+    margin-top: 10px; /* Space above the button */
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Featured properties styles */
+.featured-properties {
+    margin: 30px 0; /* Adds margin above and below the section */
+}
+
+.featured-properties h2 {
+    text-align: center; /* Centers the section title */
+}
+
+.property {
+    background-color: #ffffff; /* White background for each property */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside each property box */
+    margin: 15px; /* Space between property boxes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Centers text inside property boxes */
+    display: inline-block; /* Allows properties to sit next to each other */
+    width: calc(33% - 40px); /* Responsive width for three properties in a row */
+    vertical-align: top; /* Aligns property boxes to the top */
+}
+
+.property img {
+    max-width: 100%; /* Responsive image */
+    border-radius: 5px;
+}
+/* Footer styles */
+footer {
+    background-color: #007BFF; /* Blue background for the footer */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Padding inside the footer */
+    position: relative; /* Allows for positioning of elements */
+    bottom: 0; /* Sticks the footer to the bottom */
+    width: 100%; /* Full width of the footer */
+    margin-top: 30px; /* Space above the footer */
+}
+
+footer p {
+    margin: 5px 0; /* Space above and below each paragraph */
+    font-size: 0.9em; /* Smaller font size for footer text */
+}
+
+footer a {
+    color: #ffffff; /* White color for links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Bold font for links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
